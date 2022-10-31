@@ -15,7 +15,13 @@ int main()
         sum += arrNum[i];
     }
 
-    cout << sum << endl;
+    cout << "Entered Data: ";
+    for (auto Values : arrNum)
+    {
+        cout << Values << " ";
+    }
+    
+    cout << endl <<"sum = " << sum << endl;
     
     return 0;
 }
