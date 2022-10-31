@@ -10,7 +10,7 @@ int main()
     {
         cout << x << " ";
         x++;
-    } while (x <= 10);
+    } while (x < 10);
     
     return 0;
 }
