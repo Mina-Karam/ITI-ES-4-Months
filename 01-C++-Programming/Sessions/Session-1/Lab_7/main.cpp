@@ -4,22 +4,11 @@ using namespace std;
 
 int main() 
 {
-    int i, arr[5] = {0};
-
-    arr[6] = 10; /* Works but takecare of change data you wants */
-
-    cout << "Enter 5 numbers: ";
-    for (i = 0; i < 5; i++)
-    {
-        cin >> arr[i]; 
-    }
-
-    cout << arr[6] << endl; /* Works */
-
-    for (auto /*int*/ values : arr)
-    {
-        cout << values << " ";
-    }
+        /* [Row][Coloms] */
+    int arr[4][3] = {   {10, 60, 77},
+                        {83, 33, 74},
+                        {50, 44, 71},
+                        {92, 100,20}    };
     
     return 0;
 }
