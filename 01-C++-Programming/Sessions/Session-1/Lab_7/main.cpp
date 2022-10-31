@@ -7,7 +7,7 @@ int main()
     int i, arr[5] = {0};
 
     arr[6] = 10; /* Works but takecare of change data you wants */
-                    /* No boundry Check */
+
     cout << "Enter 5 numbers: ";
     for (i = 0; i < 5; i++)
     {
