@@ -1,6 +1,8 @@
 # ignore ALL files
 *.log
 *.exe
+*.mp4
+*.pdf
 
 # ignore ALL files in ANY directory named temp
 build/
