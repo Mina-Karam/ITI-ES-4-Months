@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main()
+{
+	int ch, i;
+
+for (i = 0; i < 10; i++)
+{
+	printf("Hello Eng. Mina Karam, Welcome in ITI\n");
+}
+
+	return 0;
+}
