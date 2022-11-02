@@ -22,12 +22,18 @@ if op == "Add" :
     print(my_dict["Add"])
 
 if op == "Sub" :
+    print(my_list[1])
+    print(my_tuple[1])
     print(my_dict["Sub"])
 
 if op == "Mul" :
+    print(my_list[2])
+    print(my_tuple[2])
     print(my_dict["Mul"])
 
 if op == "Div" :
+    print(my_list[3])
+    print(my_tuple[3])
     print(my_dict["Div"])
 
 
