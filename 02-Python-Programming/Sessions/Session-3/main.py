@@ -1,21 +1,11 @@
-Code = '''
-Hello
-Mina
-ITI
-ES
-'''
+File = open("main.cpp", "w")
 
-f1 = open(r"D:\Courses\ITI-ES-4-Months\Code\ITI-ES-4-Months\02-Python-Programming\Sessions\Session-3\Code.txt", "w")
-f1.write(Code)
-f1 = open(r"D:\Courses\ITI-ES-4-Months\Code\ITI-ES-4-Months\02-Python-Programming\Sessions\Session-3\Code.txt", "r")
-
-print(f1.read())
-f1.close()
-
-f1 = open(r"D:\Courses\ITI-ES-4-Months\Code\ITI-ES-4-Months\02-Python-Programming\Sessions\Session-3\Code.txt", "r")
-print(f1.readline(3))
-print(f1.readline())
-print(f1.readline())
-print(f1.readline())
-
-f1.close()
+File.write("#include <iostream>\n")
+File.write("using namespace std;\n")
+File.write("int main()\n")
+File.write("{\n")
+File.write("\tcout << \"")
+inputname = input("Enter output string: ")
+File.write(inputname)
+File.write("\";\n")
+File.write("}")
